@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tugas Day05</string>
+    <string name="nama_pembeli">"Buyers name: "</string>
+    <string name="kode_barang">"Item Code: "</string>
+    <string name="nama_barang">"Item name: "</string>
+    <string name="jumlah_barang">"Number of Items: "</string>
+    <string name="member">Select Member</string>
+    <string name="gold">Gold</string>
+    <string name="silver">Silver </string>
+    <string name="biasa">Regular</string>
+    <string name="bon">BILL</string>
+    <string name="hitung_total">Calculate</string>
+    <string name="harga_satuan_barang">Item Price: </string>
+    <string name="total_harga">Total Price: </string>
+    <string name="diskon_member">Member Discount: </string>
+    <string name="bagikan">Share</string>
+    <string name="jumlah_bayar">Payment Amount: </string>
+    <string name="selamat_datang">WELCOME</string>
+    <string name="terima_kasih">THANK YOU</string>
+
+</resources>

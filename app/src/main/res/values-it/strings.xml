@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tugas Day05</string>
+    <string name="nama_pembeli">"nome dell'acquirente: "</string>
+    <string name="kode_barang">"Codice Articolo: "</string>
+    <string name="nama_barang">"Nome dell'articolo: "</string>
+    <string name="jumlah_barang">"Numero di articoli: "</string>
+    <string name="member">Seleziona membro</string>
+    <string name="gold">Oro</string>
+    <string name="silver">argento</string>
+    <string name="biasa">Non socio</string>
+    <string name="hitung_total">CONTARE</string>
+    <string name="harga_satuan_barang">"Prezzo dell'articolo: "</string>
+    <string name="total_harga">"Prezzo totale: "</string>
+    <string name="diskon_member">"Sconto per i membri: "</string>
+    <string name="bagikan">Condividi</string>
+    <string name="jumlah_bayar">"Importo del pagamento: "</string>
+    <string name="bon">BOLLETTA</string>
+    <string name="selamat_datang">BENVENUTO</string>
+    <string name="terima_kasih">GRAZIE</string>
+</resources>

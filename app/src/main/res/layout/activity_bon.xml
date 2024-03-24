@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selamat_datang"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bon"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/textViewNamaPembeliLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="@string/nama_pembeli"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/textViewNamaPembeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewNamaPembeliLabel"
+        android:layout_alignBaseline="@id/textViewNamaPembeliLabel"/>
+
+    <TextView
+        android:id="@+id/textViewKodeBarangLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kode_barang"
+        android:layout_below="@id/textViewNamaPembeliLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewKodeBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewKodeBarangLabel"
+        android:layout_alignBaseline="@id/textViewKodeBarangLabel"/>
+
+    <TextView
+        android:id="@+id/textViewNamaBarangLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama_barang"
+        android:layout_below="@id/textViewKodeBarangLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewNamaBarangLabel"
+        android:layout_alignBaseline="@id/textViewNamaBarangLabel"/>
+
+    <TextView
+        android:id="@+id/textViewHargaBarangSatuanLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/harga_satuan_barang"
+        android:layout_below="@id/textViewNamaBarangLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewHargaBarangSatuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewHargaBarangSatuanLabel"
+        android:layout_alignBaseline="@id/textViewHargaBarangSatuanLabel"/>
+
+    <TextView
+        android:id="@+id/textViewJumlahBarangLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlah_barang"
+        android:layout_below="@id/textViewHargaBarangSatuanLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewJumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewJumlahBarangLabel"
+        android:layout_alignBaseline="@id/textViewJumlahBarangLabel"/>
+
+    <TextView
+        android:id="@+id/textViewTotalHargaLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_harga"
+        android:layout_below="@id/textViewJumlahBarangLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTotalHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewTotalHargaLabel"
+        android:layout_alignBaseline="@id/textViewTotalHargaLabel"/>
+
+    <TextView
+        android:id="@+id/textViewDiskonMemberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diskon_member"
+        android:layout_below="@id/textViewTotalHargaLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewDiskonMember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewDiskonMemberLabel"
+        android:layout_alignBaseline="@id/textViewDiskonMemberLabel"/>
+
+    <TextView
+        android:id="@+id/textViewJumlahBayarLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jumlah_bayar"
+        android:layout_below="@id/textViewDiskonMemberLabel"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewJumlahBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_toEndOf="@id/textViewJumlahBayarLabel"
+        android:layout_alignBaseline="@id/textViewJumlahBayarLabel"/>
+
+    <TextView
+        android:id="@+id/textViewThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewWelcome"
+        android:layout_marginTop="266dp"
+        android:paddingTop="16dp"
+        android:text="@string/terima_kasih"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewJumlahBayarLabel"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bagikan" />
+
+
+</RelativeLayout>
